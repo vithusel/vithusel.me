@@ -3309,6 +3309,7 @@ title {
 
 			#header.alt.style6 .logo strong {
 				color: #87c5a4;
+				opacity: .4;
 			}
 
 		body.is-loading #header.alt {
