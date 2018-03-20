@@ -2253,7 +2253,13 @@ title {
 				}
 
 			}
-
+			
+            .fill {
+                overflow: hidden;
+                background-size: cover;
+                background-position: center;
+                background-image: url('path/to/image.jpg');
+}
 /* List */
 
 	ol {
