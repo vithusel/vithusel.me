@@ -18,7 +18,7 @@ button:hover {
 .imgcontainer {
     text-align: center;
     position: center;
-	background-image: url("/var/www/html/images/pic05.jpg");
+	background-image: url("../../images/pic05.jpg");
 	background-size: cover;
 }
 
