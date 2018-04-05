@@ -5,7 +5,8 @@
 	    <title>Loading</title>
         <meta http-equiv="refresh" content="7.5;url=login.html" />
 		<link rel="stylesheet" href="assets/css/matrix.css" />
-    	<link rel="stylesheet" href="assets/css/main.css" />		
+    	<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/login.css" />			
 
 	</head>
 	<body>
@@ -26,7 +27,7 @@
 							<li><a href="whoami.html">Who am i?</a></li>
 							<li><a href="project.html">Projects</a></li>
 							<li><a href="contact.html">Contact</a></li>
-			                <li><a href="loading.html">Login</a></li>	
+			                <li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>	
 						</ul>
 					</nav>
 
@@ -42,4 +43,29 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/matrix.js"></script>
+			        <!-- Login -->
+			<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="location.href='index.html'" class="close" title="Close Modal">&times;</span>
+      <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+    </div>
+
+    <div class="container" style="background-color:#242943">
+      <button type="button" onclick="location.href='index.html'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
 </html>
