@@ -354,9 +354,8 @@
                      modal.style.display = "none";
     }
 }	
-				
 
-	});
+};
 	
 
 })(jQuery);
