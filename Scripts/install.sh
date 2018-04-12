@@ -41,6 +41,11 @@ echo -e $TEXT_YELLOW
 echo 'Copy files to folder'
 echo -e $TEXT_RESET
 
+cp -f apache2.conf /etc/apache2/
+echo -e $TEXT_YELLOW
+echo 'Copied apache config file'
+echo -e $TEXT_RESET
+
 sudo a2enmod rewrite
 sudo systemctl restart apache2
 sudo nano /etc/apache2/apache2.conf
