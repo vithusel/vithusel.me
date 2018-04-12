@@ -25,7 +25,11 @@ echo -e $TEXT_YELLOW
 echo 'update webserver files'
 echo -e $TEXT_RESET
 
-sudo reboot
-echo -e $TEXT_YELLOW
-echo 'Reboot system'
-echo -e $TEXT_RESET
+while true; do
+    read -p "would you like to reboot?" yn
+    case $yn in
+        [Yy]* ) echo 'rebooting system'; sudo reboot;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
