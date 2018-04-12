@@ -2224,6 +2224,14 @@ title {
 			float: right;
 			margin: 0 0 1.25em 1.5em;
 			top: 0.25em;
+	
+		}
+
+		.image.right.body {
+			float: right;
+			margin: 0 0 1.25em 1.5em;
+			top: 0.25em;
+			transform: rotate(90deg)
 		}
 
 		.image.fit {
