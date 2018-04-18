@@ -4,7 +4,7 @@ DirectorySlash Off
 RewriteEngine On
 
 RewriteCond %{SCRIPT_FILENAME}/ -d
-RewriteCond %{SCRIPT_FILENAME}.html !-f
+RewriteCond %{SCRIPT_FILENAME}. !-f
 RewriteRule [^/]$ %{REQUEST_URI}/ [R=301,L]
 
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
@@ -26,4 +26,15 @@ AuthType Basic
 AuthName "restricted area - building in progress"  
 AuthUserFile /var/www/html/.htpasswd
 require valid-user
+
+# Rewrite /foo/bar to /foo/bar.php
+RewriteRule ^([^.?]+)$ %{REQUEST_URI}.php [L]
+
+# Return 404 if original request is /foo/bar.php
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+RewriteRule .* - [L,R=404]
+
+# NOTE! FOR APACHE ON WINDOWS: Add [NC] to RewriteCond like this:
+# RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$" [NC
+
 
