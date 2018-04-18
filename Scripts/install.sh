@@ -10,7 +10,7 @@ echo -e $TEXT_YELLOW
 echo 'Refreshing availible updates'
 echo -e $TEXT_RESET
 
-sudo apt-get install apache2
+sudo apt-get install apache2 && sudo apt-get install fail2ban
 echo -e $TEXT_YELLOW
 echo 'Installed Apache2'
 echo -e $TEXT_RESET
