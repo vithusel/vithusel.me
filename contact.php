@@ -83,6 +83,10 @@ var mapProp= {
     center:new google.maps.LatLng(51.359488,-0.0966222),
     zoom:12,
 };
+var marker = new google.maps.Marker({
+position: LatLng,
+map: map,
+});
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
