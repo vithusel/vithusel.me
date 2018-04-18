@@ -1,16 +1,16 @@
-<!DOCTYPE HTML>
+<!DOCTYPE php>
 <style type="text/css">
 ::-webkit-scrollbar {
 display: none;
 }
 </style>
-<html>
+<php>
 	<head>
 	    <link rel="icon" href="images/logo.jpg">	
 		<title>Contact me</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/ie/php5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/login.css" />	
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -31,10 +31,10 @@ display: none;
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="whoami.html">Who am i?</a></li>
-							<li><a href="project.html">Projects</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="whoami.php">Who am i?</a></li>
+							<li><a href="project.php">Projects</a></li>
+							<li><a href="contact.php">Contact</a></li>
 			                <li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>	
 						</ul>
 					</nav>
@@ -63,7 +63,7 @@ display: none;
 							</ul>
 							<sub> This website is powered by Raspberry Pi 3 Apache webserver</sub>
 							<p></p>
-							<sub><small> Design is forked from HTML5UP by Forty with my own changes added</small></sub>
+							<sub><small> Design is forked from php5UP by Forty with my own changes added</small></sub>
 							</div>
 					</footer>
 
@@ -114,4 +114,4 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
   </form>
 </div>	
 	</body>
-</html>
+</php>

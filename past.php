@@ -1,8 +1,8 @@
-<!DOCTYPE HTML>
+<!DOCTYPE php>
 <script type="text/javascript">
 <!--
 if (screen.width <= 699) {
-document.location = "current-mobile.html";
+document.location = "current-mobile.php";
 }
 //-->
 </script>
@@ -11,13 +11,13 @@ document.location = "current-mobile.html";
 display: none;
 }
 </style>
-<html>
+<php>
   <head>
       <link rel="icon" href="images/logo.jpg">  
     <title>Past Projects</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lte IE 8]><script src="assets/js/ie/php5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/login.css" />	
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -34,10 +34,10 @@ display: none;
         <!-- Menu -->
           <nav id="menu">
             <ul class="links">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="whoami.html">Who am i?</a></li>
-              <li><a href="project.html">Projects</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="whoami.php">Who am i?</a></li>
+              <li><a href="project.php">Projects</a></li>
+              <li><a href="contact.php">Contact</a></li>
 			  <li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>	
             </ul>
           </nav>
@@ -61,7 +61,7 @@ display: none;
           </div>
 
 <style>
-body, html {
+body, php {
   height: 100%;
   margin: 0;
 }
@@ -218,4 +218,4 @@ h3 {
   </form>
 </div>	
 </body>
-</html>
+</php>
