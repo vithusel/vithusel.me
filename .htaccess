@@ -3,7 +3,7 @@ DirectorySlash Off
 
 RewriteEngine On
 
-AuthType Basic  
-AuthName "restricted area - building in progress"  
-AuthUserFile /var/www/html/.htpasswd
-require valid-user
+#AuthType Basic  
+#AuthName "restricted area - building in progress"  
+#AuthUserFile /var/www/html/.htpasswd
+#require valid-user
