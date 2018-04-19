@@ -2,10 +2,6 @@ Options +FollowSymLinks +MultiViews
 DirectorySlash Off
 
 RewriteEngine On
-RewriteBase /
-RewriteRule ^(.+)\.php$ /$1 [R,L]
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*?)/?$ /$1.php [NC,END]
 
 AuthType Basic  
 AuthName "restricted area - building in progress"  
