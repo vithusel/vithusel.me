@@ -6,7 +6,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(([A-Za-z0-9\-]+/)*[A-Za-z0-9\-]+)?$ $1.php
 
-#AuthType Basic  
-#AuthName "restricted area - building in progress"  
-#AuthUserFile /var/www/html/.htpasswd
-#require valid-user
+AuthType Basic  
+AuthName "restricted area - building in progress"  
+AuthUserFile /var/www/html/.htpasswd
+require valid-user
