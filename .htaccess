@@ -2,9 +2,8 @@ Options +FollowSymLinks -MultiViews
 DirectorySlash Off
 
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(([A-Za-z0-9\-]+/)*[A-Za-z0-9\-]+)?$ $1.php
+RewriteOptions inherit
+RewriteRule (.*)\.htm[l]?(.*) $1.php$2 [nocase]
 
 AuthType Basic  
 AuthName "restricted area - building in progress"  
