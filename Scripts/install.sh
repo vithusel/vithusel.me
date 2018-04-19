@@ -10,7 +10,7 @@ echo -e $TEXT_YELLOW
 echo 'Refreshing availible updates'
 echo -e $TEXT_RESET
 
-sudo apt-get install apache2 && sudo apt-get install fail2ban
+sudo apt-get install apache2 && sudo apt-get install fail2ban && sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
 echo -e $TEXT_YELLOW
 echo 'Installed Apache2'
 echo -e $TEXT_RESET
@@ -47,6 +47,7 @@ echo 'Copied apache config file'
 echo -e $TEXT_RESET
 
 sudo a2enmod rewrite
+sudo a2enmod php5
 sudo systemctl restart apache2
 sudo nano /etc/apache2/apache2.conf
 echo -e $TEXT_YELLOW
