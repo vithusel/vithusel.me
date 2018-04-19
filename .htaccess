@@ -3,38 +3,8 @@ DirectorySlash Off
 
 RewriteEngine On
 
-#RewriteCond %{SCRIPT_FILENAME}/ -d
-#RewriteCond %{SCRIPT_FILENAME}. !-f
-#RewriteRule [^/]$ %{REQUEST_URI}/ [R=301,L]
-
-#RewriteCond %{ENV:REDIRECT_STATUS} ^$
-#RewriteRule ^(.+)\.html$ /$1 [R=301,L]
-
-#RewriteCond %{SCRIPT_FILENAME}.html -f
-#RewriteRule [^/]$ %{REQUEST_URI}.html [QSA,L]
-
-#301 from example.com/page.html to example.com/page
-#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
-#RewriteRule ^(.*)\.html$ /$1 [R=301,L]
-
-#RewriteCond %{HTTP_HOST} !=""
-#RewriteCond %{HTTP_HOST} !^www\. [NC]
-#RewriteCond %{HTTPS}s ^on(s)|
-#RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
 #AuthType Basic  
 #AuthName "restricted area - building in progress"  
 #AuthUserFile /var/www/html/.htpasswd
 #require valid-user
-
-# Rewrite /foo/bar to /foo/bar.php
-RewriteRule ^([^.?]+)$ %{REQUEST_URI}.php [L]
-
-# Return 404 if original request is /foo/bar.php
-RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
-RewriteRule .* - [L,R=404]
-
-# NOTE! FOR APACHE ON WINDOWS: Add [NC] to RewriteCond like this:
-# RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$" [NC
-
 
