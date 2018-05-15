@@ -6,7 +6,7 @@ DirectorySlash Off
   RewriteCond %{REQUEST_FILENAME}\.php -f
   RewriteRule ^(.*)$ $1.php
 
-#AuthType Basic  
-#AuthName "restricted area - building in progress"  
-#AuthUserFile /var/www/html/.htpasswd
-#require valid-user
+AuthType Basic  
+AuthName "restricted area - building in progress"  
+AuthUserFile /var/www/html/.htpasswd
+require valid-user
