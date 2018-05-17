@@ -1,4 +1,7 @@
 <!DOCTYPE php>
+<?php
+include_once "header.php";
+?>
 <script type="text/javascript">
 <!--
 if (screen.width <= 699) {
@@ -28,9 +31,7 @@ display: none;
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-<?php
-include_once "header.php";
-?>
+
 
 				<!-- Banner -->
 					<section id="banner" class="major">
