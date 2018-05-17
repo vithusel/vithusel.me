@@ -14,7 +14,6 @@ alert("This site works best on a Desktop, Loading mobile compatible site")
 display: none;
 }
 </style>
-<php>
 	<head>
 	    <link rel="icon" href="images/logo.jpg">
 		<title>Home Page</title>
@@ -158,4 +157,3 @@ display: none;
 
 
 	</body>
-</php>
