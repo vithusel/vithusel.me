@@ -20,7 +20,6 @@ display: none;
 
 <?php
 include_once "everypage/header.php";
-include_once "everypage/login.php";
 ?>
 
 				<!-- Main -->
@@ -67,5 +66,8 @@ include_once "everypage/login.php";
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+<?php
+include_once "everypage/login.php";
+?>
 	</body>
 </php>

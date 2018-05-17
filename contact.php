@@ -20,7 +20,6 @@ display: none;
 
 <?php
 include_once "everypage/header.php";
-include_once "everypage/login.php";
 ?>
 				<!-- Main -->
 					<div id="main" class="alt">
@@ -70,5 +69,8 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWecywdkVNE8TZYKBSlGPazItOLOWw4Gc&callback=myMap"></script>
+<?php
+include_once "everypage/login.php";
+?>
 	</body>
 </php>
