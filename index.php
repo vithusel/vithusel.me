@@ -6,11 +6,6 @@ alert("This site works best on a Desktop, Loading mobile compatible site")
 }
 //-->
 </script>
-<style type="text/css">
-::-webkit-scrollbar {
-display: none;
-}
-</style>
 <php>
 <?php
 include_once "everypage/header.php";
