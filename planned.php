@@ -24,23 +24,10 @@ display: none;
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
   <body>
-        <!-- Header -->
-          <header id="header">
-            <nav>
-              <a href="#menu">Menu</a>
-            </nav>
-          </header>
-
-        <!-- Menu -->
-          <nav id="menu">
-            <ul class="links">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="whoami.php">Who am i?</a></li>
-              <li><a href="project.php">Projects</a></li>
-              <li><a href="contact.php">Contact</a></li>
-			  <li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>	
-            </ul>
-          </nav>
+<?php
+include_once "everypage/header.php";
+include_once "everypage/login.php";
+?>
 
   <!-- Main -->
           <div id="main" class="alt">
@@ -192,31 +179,5 @@ h3 {
       <script src="assets/js/util.js"></script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
-        <!-- Login -->
-			<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php">
-    <div class="imgcontainer">
-      <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <div class="12u$">
-	   <ul class="actions">
-	<li><input type="submit" value="Login" class="special" /></li>
-    </div>
-
-    <div class="container" style="background-color:#242943">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw"> <a href="#">Forgot Password?</a></span>
-    </div>
-  </form>
-</div>	
 </body>
 </php>

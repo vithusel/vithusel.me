@@ -13,8 +13,8 @@ display: none;
 </style>
 <php>
 <?php
-include_once "header.php";
-include_once "login.php";
+include_once "everypage/header.php";
+include_once "everypage/login.php";
 ?>
 	<head>
 	    <link rel="icon" href="images/logo.jpg">
@@ -28,9 +28,6 @@ include_once "login.php";
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
 
 				<!-- Banner -->
 					<section id="banner" class="major">

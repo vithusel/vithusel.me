@@ -1,3 +1,6 @@
+		<!-- Wrapper -->
+			<div id="wrapper">
+
 				<!-- Header -->
 					<header id="header" class="alt">
 						<nav>
