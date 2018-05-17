@@ -5,7 +5,7 @@
 					<header id="header" class="alt">
 						<nav>
 							<a href="#menu">Menu</a>
-							<button onclick="goBack()">Go Back</button>
+							<a href="#" onclick="goBack()" style="float: left;">Back</a>
 						</nav>
 					</header>
 
