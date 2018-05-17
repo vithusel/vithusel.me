@@ -25,11 +25,6 @@
   </form>
 </div>	
 
-<style type="text/css">
-::-webkit-scrollbar {
-display: none;
-}
-</style>
 <script>
 function goBack() {
     window.history.back();
