@@ -1,9 +1,4 @@
 <!DOCTYPE php>
-<style type="text/css">
-::-webkit-scrollbar {
-display: none;
-}
-</style>
 <php>
   <head>
       <link rel="icon" href="images/logo.jpg">  
