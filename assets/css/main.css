@@ -1613,7 +1613,7 @@ title {
 	}
 
 	body {
-		-ms-overflow-style: none;
+		-ms-overflow-style: scrollbar;
 	}
 
 	@media screen and (max-width: 480px) {
