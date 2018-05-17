@@ -45,7 +45,7 @@ include_once "everypage/header.php";
 							</ul>
 							<sub> This website is powered by Raspberry Pi 3 Apache webserver</sub>
 							<p></p>
-							<sub><small> Design is forked from php5UP by Forty with my own changes added</small></sub>
+							<sub><small> Design is forked from "HTML5UP" by Forty with my own changes added</small></sub>
 							</div>
 					</footer>
 
