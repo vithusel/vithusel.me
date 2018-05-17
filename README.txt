@@ -1,6 +1,7 @@
 A work in progress. 
 
-Partial code taken from Forty. This is expected to be completely changed as time passes.
+Partial code taken from Forty and edited or had bug fixed when new items were introduced.
+This is expected to be completely changed as time passes.
 
 
 Credits to:
