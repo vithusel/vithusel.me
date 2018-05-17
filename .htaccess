@@ -1,10 +1,19 @@
-Options +FollowSymLinks +MultiViews
-DirectorySlash Off
+Options +FollowSymlinks
+
 
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteBase /
+
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(([A-Za-z0-9\-]+/)*[A-Za-z0-9\-]+)?$ $1.php
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^(.+)$ /$1.php [L,QSA]
 
 AuthType Basic  
 AuthName "restricted area - building in progress"  
