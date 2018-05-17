@@ -15,6 +15,6 @@
 							<li><a href="whoami.php">Who am i?</a></li>
 							<li><a href="project.php">Projects</a></li>
 							<li><a href="contact.php">Contact</a></li>
-			                <li><a href="" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>
+			                <li><a href="/" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>
 						</ul>
 					</nav>
