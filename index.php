@@ -12,6 +12,10 @@ display: none;
 }
 </style>
 <php>
+<?php
+include_once "header.php";
+include_once "login.php";
+?>
 	<head>
 	    <link rel="icon" href="images/logo.jpg">
 		<title>Home Page</title>
@@ -27,10 +31,6 @@ display: none;
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
-<?php
-include_once "header.php";
-?>
 
 				<!-- Banner -->
 					<section id="banner" class="major">
@@ -127,34 +127,5 @@ include_once "header.php";
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-        <!-- Login -->
-			<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php">
-    <div class="imgcontainer">
-      <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <div class="12u$">
-	   <ul class="actions">
-	<li><input type="submit" value="Login" class="special" /></li>
-    </div>
-
-    <div class="container" style="background-color:#242943">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw"> <a href="#">Forgot Password?</a></span>
-    </div>
-  </form>
-</div>	
-
-
-
 	</body>
 </php>
