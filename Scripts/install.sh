@@ -50,7 +50,6 @@ echo -e $TEXT_RESET
 sudo a2enmod rewrite
 sudo a2enmod php7.0
 sudo systemctl restart apache2
-sudo nano /etc/apache2/apache2.conf
 echo -e $TEXT_YELLOW
 echo 'Enable mod-rewrite'
 echo -e $TEXT_RESET
