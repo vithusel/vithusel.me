@@ -3467,7 +3467,7 @@ title {
 		}
 
 		#banner > .inner {
-			transition: opacity 1.5s ease;
+			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
