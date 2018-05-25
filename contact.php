@@ -30,6 +30,14 @@ include_once "everypage/header.php";
 							<div class="content">
 								<p>I am based in Croydon, London.</p>
                                 <p>If you would like to contact me feel free to send me a message on Linkedin or via <a href="mailto:vithu@live.com">email</a></p>
+                                <p>If you wish please upload your contact details below and i will do my best to get back to you. </p>
+                                <form action="Scripts/PHP/upload.php" method="post" enctype="multipart/form-data">
+                                Select File to upload:
+                                <input type="file" name="fileToUpload" id="fileToUpload">
+                                <input type="submit" value="Upload File" name="submit">
+                                </form>
+
+
       							</div>	
 					<footer id="footer">
 						<div class="inner">
