@@ -32,7 +32,10 @@ include_once "everypage/header.php";
 									    <h1>What those goals are you ask?</h1>
 									<p>I want to be a Devops Engineer since i don't like being fixed to one sector and Devops engineers are required to work in a lot of different sectors such as scripting and sysadmin to do this i'm currently doing a level 4 Networking Apprenticeship, This involves learning Cisco networking as well as all the fundamentals to system security. Whilst doing this i am also self training php, CSS, Python, Bash and Powershell. Two of these im learning by actually creating something such as this Website which i will improve as my skills do. I also intend to train for AWS Admin, Google Cloud Admin, SQL Databases and do a Microsoft MCSA Certification. as well as learning Java and maybe some .</p>
 									<p> Most of the above things i don't want to do because it will get me good money or help me settle in life but because i want to be able to understand how things such as Cloud platforms work and to be able to tinker with my own linux servers and create Systems such as Home Automation for my owm home. 
+								<h1>Have a look at my CV</h1>
+								 	<h3><a href="/Files/Download/CV.docx" class="inner">Download</a></h3>								
 								</div>
+
 							</section>
 
 					</div>
