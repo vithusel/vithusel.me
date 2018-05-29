@@ -6,10 +6,9 @@
 						<nav>
 						    <script type="text/javascript">
                             <!--
-                            if (screen.width <= 699) {
+                            if (screen.width <= 699) 
                             window.onload = function() {
                             <a href='#' onclick="goBack()">Go Back</a>
-                            }
                             }
                             //-->
                             </script>
