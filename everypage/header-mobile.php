@@ -1,17 +1,10 @@
-<script type="text/javascript">
-<!--
-if (screen.width <= 699) {
-document.location = "everypage/header-mobile.php";
-}
-//-->
-</script>
-
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header" class="alt">
 						<nav>
+                            <a href='#' onclick="goBack()">Go Back</a>
 							<a href="#menu">Menu</a>
 						</nav>
 					</header>
