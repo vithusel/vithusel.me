@@ -4,7 +4,15 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<nav>
-						    <a href='#' onclick="goBack()">Go Back</a>
+						    <script type="text/javascript">
+                            <!--
+                            if (screen.width <= 699) {
+                            window.onload = function() {
+                            <a href='#' onclick="goBack()">Go Back</a>
+                            }
+                            }
+                            //-->
+                            </script>
 							<a href="#menu">Menu</a>
 						</nav>
 					</header>
@@ -19,3 +27,4 @@
 			                <li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>
 						</ul>
 					</nav>
+					
