@@ -22,7 +22,7 @@
     width: 80%;
     height: 80%;	/* Could be more or less, depending on screen size */
 	display: block; 
-	margin: 0 auto;
+	margin: 60px auto;
 }
 
 /* The Close Button */
