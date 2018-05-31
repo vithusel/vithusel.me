@@ -8,6 +8,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/php5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/login.css" />	
+		<link rel="stylesheet" href="assets/css/popupbox.css" />			
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -33,6 +34,20 @@ include_once "everypage/header.php";
 									<p>I want to be a Devops Engineer since i don't like being fixed to one sector and Devops engineers are required to work in a lot of different sectors such as scripting and sysadmin to do this i'm currently doing a level 4 Networking Apprenticeship, This involves learning Cisco networking as well as all the fundamentals to system security. Whilst doing this i am also self training php, CSS, Python, Bash and Powershell. Two of these im learning by actually creating something such as this Website which i will improve as my skills do. I also intend to train for AWS Admin, Google Cloud Admin, SQL Databases and do a Microsoft MCSA Certification. as well as learning Java and maybe some .</p>
 									<p> Most of the above things i don't want to do because it will get me good money or help me settle in life but because i want to be able to understand how things such as Cloud platforms work and to be able to tinker with my own linux servers and create Systems such as Home Automation for my owm home. 
 								<h1>Have a look at my CV</h1>
+								<h1>Popup/Modal Windows without JavaScript</h1>
+<div class="box">
+	<a class="button" href="#popup1">Let me Pop up</a>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Here i am</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Thank to pop me out of that button, but now i'm done so you can close this window.
+		</div>
+	</div>
+</div>
 								 	<h3><a href="/Files/Download/CV.docx" class="inner">Download</a></h3>								
 								</div>
 
