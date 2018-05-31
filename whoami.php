@@ -43,7 +43,7 @@ include_once "everypage/header.php";
                                  <!-- Modal content -->
                                  <div class="modal-content">
                                  <span class="close">&times;</span>
-                                 <iframe src="http://docs.google.com/gview?url=http://vithusel.me/Files/Download/CV.pdf&embedded=true" style="width:600px; height:500px"></iframe>
+                                 <iframe src="http://docs.google.com/gview?url=http://vithusel.me/Files/Download/CV.pdf&embedded=true" style="width:100%; height:100%"></iframe>
                                  </div>
 
                                  </div>
