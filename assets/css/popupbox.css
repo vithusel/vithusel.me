@@ -1,5 +1,5 @@
 /* The Modal (background) */
-.modal {
+.modalpopup {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -13,7 +13,7 @@
 }
 
 /* Modal Content/Box */
-.modal-content {
+.modal-contentpopup {
     background-color: #fefefe;
     padding: 20px;
     border: 1px solid #888;
@@ -22,15 +22,15 @@
 }
 
 /* The Close Button */
-.close {
+.closepopup {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.closepopup:hover,
+.closepopup:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;

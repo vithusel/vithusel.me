@@ -35,14 +35,14 @@ include_once "everypage/header.php";
 									<p> Most of the above things i don't want to do because it will get me good money or help me settle in life but because i want to be able to understand how things such as Cloud platforms work and to be able to tinker with my own linux servers and create Systems such as Home Automation for my own home. 
 								<h1>Have a look at my CV</h1>
                                  <!-- Trigger/Open The Modal -->
-                                 <button id="myBtn">Open Modal</button>
+                                 <button id="myBtnpopup">Open Modal</button>
 
                                  <!-- The Modal -->
-                                 <div id="myModal" class="modal">
+                                 <div id="myModalpopup" class="modalpopup">
 
                                  <!-- Modal content -->
-                                 <div class="modal-content">
-                                 <span class="close">&times;</span>
+                                 <div class="modal-contentpopup">
+                                 <span class="closepopup">&times;</span>
                                  <iframe src="http://docs.google.com/gview?url=http://vithusel.me/Files/Download/CV.pdf&embedded=true" style="width:100%; height:100%"></iframe>
                                  </div>
 
