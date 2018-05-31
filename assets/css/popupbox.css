@@ -22,6 +22,7 @@
     width: 80%;
     height: 80%;	/* Could be more or less, depending on screen size */
 	display: inline-block; 
+	margin: 0 auto;
 }
 
 /* The Close Button */
