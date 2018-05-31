@@ -16,20 +16,21 @@
 
 /* Modal Content/Box */
 .modal-contentpopup {
-    background-color: #fefefe;
+    background-color: #242943;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    height: 80%;	/* Could be more or less, depending on screen size */
+    height: 95%;
+    min-height: 650px;	/* Could be more or less, depending on screen size */
 	display: block; 
-	margin: 60px auto;
+	margin: 50px auto;
 }
 
 /* The Close Button */
 .closepopup {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -39,3 +40,21 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+ /* Style buttons */
+.btnpopup {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 100;
+
+}
+
+/* Darker background on mouse-over */
+.btnpopup:hover {
+  background-color: RoyalBlue;
+  opacity: 100;
+} 
