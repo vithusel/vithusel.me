@@ -16,11 +16,11 @@
 
 /* Modal Content/Box */
 .modal-contentpopup {
-    background-color: #fefefe;
+    background-color: #242943;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    height: 80%;	/* Could be more or less, depending on screen size */
+    height: 85%;	/* Could be more or less, depending on screen size */
 	display: block; 
 	margin: 60px auto;
 }
@@ -29,7 +29,7 @@
 .closepopup {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -39,3 +39,19 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+ /* Style buttons */
+.btnpopup {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 1px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btnpopup:hover {
+  background-color: RoyalBlue;
+} 
