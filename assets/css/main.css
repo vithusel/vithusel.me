@@ -3320,6 +3320,22 @@ title {
 			opacity: 0;
 		}
 
+		@media screen and (max-width: 2500px) {
+
+			#header nav a[href="#menu"] {
+				padding-right: 3.75em !important;
+			}
+
+				#header nav a[href="#menu"]:last-child {
+					padding-right: 4.25em !important;
+				}
+
+						#header nav a[href="#"] {
+				            opacity: 0;
+			            }
+
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			#header nav a[href="#menu"] {
@@ -3330,9 +3346,9 @@ title {
 					padding-right: 4.25em !important;
 				}
 
-								  	#header nav a[href="#"] {
-				        opacity: 0;
-			}
+						#header nav a[href="#"] {
+				            opacity: 0;
+			            }
 
 		}
 
