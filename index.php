@@ -1,11 +1,4 @@
 <!DOCTYPE php>
-<script type="text/javascript">
-<!--
-if (screen.width <= 699) {
-alert("This site works best on a Desktop, Loading mobile compatible site")
-}
-//-->
-</script>
 <php>
 <?php
 include_once "everypage/header.php";
