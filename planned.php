@@ -15,6 +15,7 @@ document.location = "current-mobile.php";
     <!--[if lte IE 8]><script src="assets/js/ie/php5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/login.css" />	
+    <link rel="stylesheet" href="assets/css/popupbox.css" />	
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
   </head>
