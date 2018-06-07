@@ -1,7 +1,7 @@
 <!DOCTYPE php>
 <php>
 	<head>
-	    <link rel="icon" href="images/logo.jpg">	
+	    <link rel="icon" type="image/jpg" href="images/logo.jpg">	
 		<title>Who am i?</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
