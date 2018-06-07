@@ -33,9 +33,7 @@ include_once "everypage/header.php";
                     <h1>Planned Projects</h1>
                   </header>
                   <span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-                  <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                  <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+                  <p></p>
                 </div>
               </section>
 
@@ -118,7 +116,19 @@ h3 {
 
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">Pepper Tab</h3>
-  <p> This project is essentially a custom tablet built using a Raspberry Pi as its core. Unfortunately I have put this on hold for the moment purely due to cost of parts and lack of time to work on this. However this device would be able to run Raspbian and Android. There is still a lot of planning work to do prior to a first prototype since i would like functions such as GPS and networks (4G) to be available. Understandably this means i need to spend time considering hardware (if i want to solder directly to board) and if i am able to acompalish integrating hardware so that it is stable.</p>
+  <p> This project is essentially a custom tablet built using a Raspberry Pi as its core. Unfortunately I have put this on hold for the moment purely due to cost of parts and lack of time to work on this. 
+  <!-- Trigger/Open The Modal -->
+  <button id="myBtnpopup">Preview CV</button>
+
+  <!-- The Modal -->
+  <div id="myModalpopup" class="modalpopup">
+
+  <!-- Modal content -->
+  <div class="modal-contentpopup">
+  <span class="closepopup">&times;</span>
+  <iframe src="http://docs.google.com/gview?url=http://vithusel.me/Files/Download/PepperTab.pdf&embedded=true" style="width:100%; height:87%"></iframe>
+
+  </div>  
 </div>
 
 <div class="bgimg-2">
@@ -136,7 +146,7 @@ h3 {
 
 <div class="bgimg-3">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">PS1 Retro-Console emulator</span>
   </div>
 </div>
 
@@ -173,6 +183,7 @@ h3 {
       <script src="assets/js/util.js"></script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
+	  <script src="assets/js/popupbox.js"></script>
 <?php
 include_once "everypage/login.php";
 ?>	  
