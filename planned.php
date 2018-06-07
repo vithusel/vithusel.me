@@ -63,17 +63,17 @@ body, php {
 
 .bgimg-2 {
   background-image: url("images/android.jpg");
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .bgimg-3 {
   background-image: url("images/pic12.jpg");
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .bgimg-4 {
   background-image: url("images/pic12.jpg");
-  min-height: 100%
+  min-height: 600px;
 }
 
 .caption {
