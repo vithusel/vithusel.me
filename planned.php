@@ -130,6 +130,7 @@ h3 {
   <span class="closepopup">&times;</span>
   <iframe src="http://docs.google.com/gview?url=http://vithusel.me/Files/Download/PepperTab.pdf&embedded=true" style="width:100%; height:87%"></iframe>
   </div>  
+  <p>Please have a look at work i have contributed to this project so far</p>
 </div>
 
 <div class="bgimg-2">
