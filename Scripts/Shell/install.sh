@@ -42,7 +42,7 @@ echo 'Copy files to folder'
 echo -e $TEXT_RESET
 
 cd html
-sudo cp -f Scripts/apache2.conf /etc/apache2/
+sudo cp -f Scripts/Shell/apache2.conf /etc/apache2/
 echo -e $TEXT_YELLOW
 echo 'Copied apache config file'
 echo -e $TEXT_RESET
