@@ -128,7 +128,7 @@ h3 {
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
     <p>I always want the latest software on my personal devices, Unfortunalty Android devices are not supported for as long as they last physically so i (where i can) modify my devices to ensure they are as up to date as possible.</p>
     <p>This involes things such as, Kernel Modifications, Android system modifications (Frameworks), System Tuning and debloating, Creating TWRP compatible Scripts with required checks (to avoid bricking).
 	</div>
