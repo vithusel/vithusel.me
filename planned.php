@@ -115,7 +115,7 @@ h3 {
   </div>
 </div>
 
-<div style="color: #777;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
+<div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">Pepper Tab</h3>
   <p> This project is essentially a custom tablet built using a Raspberry Pi as its core. Unfortunately I have put this on hold for the moment purely due to cost of parts and lack of time to work on this.</p> 
 </div>
@@ -127,7 +127,7 @@ h3 {
 </div>
 
 <div style="position:relative;">
-  <div style="color: #777;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
+  <div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
     <p>I always want the latest software on my personal devices, Unfortunalty Android devices are not supported for as long as they last physically so i (where i can) modify my devices to ensure they are as up to date as possible.</p>
     <p>This involes things such as, Kernel Modifications, Android system modifications (Frameworks), System Tuning and debloating, Creating TWRP compatible Scripts with required checks (to avoid bricking).</p>
 	</div>
