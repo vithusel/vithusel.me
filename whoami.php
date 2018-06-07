@@ -43,7 +43,7 @@ include_once "everypage/header.php";
                                  <!-- Modal content -->
                                  <div class="modal-contentpopup">
                                  <span class="closepopup">&times;</span>
-                                 <embed src="/web/viewer.html?file=../File/Download/CV.pdf" style="width:100%; height:87%"></embed>	
+                                 <embed src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%; height:87%"></embed>	
                                  <a href="/Files/Download/CV.pdf" download="Vithurshan Selvarajah - CV">
     	                         <button class="btnpopup" style="width:100%"><i class="fa fa-download"></i> Download</button>
                                  </a>
