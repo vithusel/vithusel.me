@@ -11,7 +11,9 @@ var span = document.getElementsByClassName("closepopup")[0];
 btn.onclick = function() {
     modal.style.display = "block";
 }
-
+btn.onclick = if (screen.width <= 699) {
+document.location = "current-mobile.php";
+}
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
