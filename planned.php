@@ -66,7 +66,7 @@ body, php {
 }
 
 .bgimg-3 {
-  background-image: url("images/pic12.jpg");
+  background-image: url("images/PS1.jpg");
   min-height: 100%;
 }
 
