@@ -118,6 +118,7 @@ h3 {
 <div style="color: #777;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">Pepper Tab</h3>
   <p> This project is essentially a custom tablet built using a Raspberry Pi as its core. Unfortunately I have put this on hold for the moment purely due to cost of parts and lack of time to work on this.</p> 
+  <div> 
   <!-- Trigger/Open The Modal -->
   <button id="myBtnpopup">Preview CV</button>
 
@@ -129,6 +130,7 @@ h3 {
   <span class="closepopup">&times;</span>
   <iframe src="http://docs.google.com/gview?url=http://vithusel.me/Files/Download/PepperTab.pdf&embedded=true" style="width:100%; height:87%"></iframe>
 
+  </div> 
   </div>  
 </div>
 
