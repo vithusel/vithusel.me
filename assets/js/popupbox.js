@@ -8,13 +8,10 @@ var btn = document.getElementById("myBtnpopup");
 var span = document.getElementsByClassName("closepopup")[0];
 
 // When the user clicks on the button, open the modal 
-btn.onclick = somFunc() { if (screen.width <= 699) {
-    document.location = "CV-mobile.php";
-};
-function() {
+btn.onclick = function() {
     modal.style.display = "block";
-};
 }
+
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
