@@ -10,7 +10,6 @@ var span = document.getElementsByClassName("closepopup")[0];
 // When the user clicks on the button, open the modal 
 btn.onclick = function() {
     modal.style.display = "block";
-	transition: opacity 1.5s ease, transform 0.5s ease-in;
 }
 
 
