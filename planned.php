@@ -129,19 +129,19 @@ h3 {
 <div style="position:relative;">
   <div style="color: #777;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
     <p>I always want the latest software on my personal devices, Unfortunalty Android devices are not supported for as long as they last physically so i (where i can) modify my devices to ensure they are as up to date as possible.</p>
-    <p>This involes things such as, Kernel Modifications, Android system modifications (Frameworks), System Tuning and debloating, Creating TWRP compatible Scripts with required checks (to avoid bricking).
+    <p>This involes things such as, Kernel Modifications, Android system modifications (Frameworks), System Tuning and debloating, Creating TWRP compatible Scripts with required checks (to avoid bricking).</p>
 	</div>
 </div>
 
 <div class="bgimg-3">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">PS1 Retro-Console emulator</span>
+    <span class="border" style="font-size:25px;color: #f7f7f7;">PS1 Retro-Console emulator</span>
   </div>
 </div>
 
 <div style="position:relative;">
   <div style="color:#ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    <p>Converting a dead PS1 to a function linux server and a retro console with the ability to still use the disk drive to load original PS1 games. This will be done using a arm based computer. This project is in preliminary stages. Will update once i have done more.</p>
   </div>
 </div>
 
