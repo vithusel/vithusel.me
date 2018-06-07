@@ -62,17 +62,17 @@ body, php {
 
 .bgimg-2 {
   background-image: url("images/android.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 
 .bgimg-3 {
   background-image: url("images/pic12.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 
 .bgimg-4 {
   background-image: url("images/pic12.jpg");
-  min-height: 600px;
+  min-height: 100%;
 }
 
 .caption {
@@ -115,7 +115,7 @@ h3 {
   </div>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<div style="color: #777;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">Pepper Tab</h3>
   <p> This project is essentially a custom tablet built using a Raspberry Pi as its core. Unfortunately I have put this on hold for the moment purely due to cost of parts and lack of time to work on this.</p> 
   <!-- Trigger/Open The Modal -->
@@ -139,7 +139,7 @@ h3 {
 </div>
 
 <div style="position:relative;">
-  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <div style="color: #777;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
     <p>I always want the latest software on my personal devices, Unfortunalty Android devices are not supported for as long as they last physically so i (where i can) modify my devices to ensure they are as up to date as possible.</p>
     <p>This involes things such as, Kernel Modifications, Android system modifications (Frameworks), System Tuning and debloating, Creating TWRP compatible Scripts with required checks (to avoid bricking).
 	</div>
@@ -152,7 +152,7 @@ h3 {
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div style="color:#ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
     <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
   </div>
 </div>
@@ -164,7 +164,7 @@ h3 {
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div style="color:#ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
     <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
   </div>
 </div>
