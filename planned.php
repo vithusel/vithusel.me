@@ -129,7 +129,7 @@ h3 {
   <!-- Modal content -->
   <div class="modal-contentpopup">
   <span class="closepopup">&times;</span>
-  <iframe src="http://docs.google.com/gview?url=http://vithusel.me/Files/Download/PepperTab.pdf&embedded=true" style="width:100%; height:87%"></iframe>
+  <embed src="Files/Download/PepperTab.pdf" style="width:100%; height:87%"></embed>
   </div>
 </div>
 
