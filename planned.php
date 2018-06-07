@@ -123,6 +123,7 @@ h3 {
   <button id="myBtnpopup">Preview CV</button>
   </div>
   <p>Please have a look at work i have contributed to this project so far</p>
+  <section>
   <!-- The Modal -->
   <div id="myModalpopup" class="modalpopup">
 
@@ -132,6 +133,7 @@ h3 {
   <embed src="Files/Download/PepperTab.pdf" style="width:100%; height:87%"></embed>
   </div>
 </div>
+</section>
 
 <div class="bgimg-2">
   <div class="caption">
