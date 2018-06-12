@@ -64,17 +64,7 @@ body, php {
 
 .bgimg-2 {
   background-image: url("images/pic12.jpg");
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url("images/pic12.jpg");
-  min-height: 400px;
-}
-
-.bgimg-4 {
-  background-image: url("images/pic12.jpg");
-  min-height: 100%
+  min-height: 100%;
 }
 
 .caption {
@@ -116,7 +106,7 @@ h3 {
   </div>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
   <h3 style="text-align:center;">Scripting</h3>
    <p>A script consisting of powershell and CMD commands to be able to automate the setup of enterprise machines with minimal user input. This is made to work across multiple versions of windows as well as different architectures. I have included the ability to be able to check if the machine is a domain machine as well as plenty of other features i have planned.</p>
    <p>Part of the scripts purpose is to be able to install a wide range of applications (Antivirus, Office 2010, etc). The Script is able to check if the application is already installed and carry out various automated actions upon installing applications.</P>  
@@ -124,43 +114,13 @@ h3 {
 
 <div class="bgimg-2">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Wii U Gamepad Standalone Console</span>
   </div>
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-  </div>
-</div>
-
-<div class="bgimg-3">
-  <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
-  </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-  </div>
-</div>
-
-<div class="bgimg-4">
-  <div class="caption">
-    <span class="border">test!</span>
-  </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-  </div>
-</div>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">COOL!</span>
+  <div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>I have worked on converting the Wii U controller into a standalone console with full analogy and button functionality. This project was a partial success. At the time of me working on this project i could not find a suitable battery to power the device for extended times. However I will at some point revisit this project to look at the possibility of improving the PSU.</p>
   </div>
 </div>
 

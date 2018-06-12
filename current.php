@@ -64,17 +64,7 @@ body, php {
 
 .bgimg-2 {
   background-image: url("images/securitysystem.jpg");
-  min-height: 400px;
-}
-
-.bgimg-3 {
-  background-image: url("images/pic12.jpg");
-  min-height: 400px;
-}
-
-.bgimg-4 {
-  background-image: url("images/pic12.jpg");
-  min-height: 100%
+  min-height: 100%;
 }
 
 .caption {
@@ -117,8 +107,8 @@ h3 {
   </div>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <p>This website you are currently on is being run off of a Raspberry pi running Raspbian Apache. The website itself has been built using multiple sources but the original site is based off of php5UP's design which i have heavily edited. My hopes for this site is a teaching tool for myself to learn some basic web design languages such as python and java you can see the code for this site on my Github</p>
+<div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>This website you are currently on is being run off of a Raspberry pi running Raspbian Apache. The original site is based off of "HTML5UP's" design which i have heavily edited. My hopes for this site is a teaching tool for myself to learn some basic web design languages such as python and java you can see the code for this site on my Github</p>
 </div>
 
 <div class="bgimg-2">
@@ -128,7 +118,7 @@ h3 {
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
     <p>One of the projects im currently working on it smartifiying my home using the raspberry pi. Although there a plenty of exisiting solutions available i intend on with starting one from scratch or modifying a existing system to include the following:	</p>
     <ul>
 	   <li>Nightvision camera</Li>
@@ -136,36 +126,6 @@ h3 {
        <li>Ability to notify my phone when a unauthorised person has been detected</Li>
        <li>Heat sensor to act as secondary alarm to notify my of fire if no-one is home</Li>
 	</div>
-</div>
-
-<div class="bgimg-3">
-  <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
-  </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-  </div>
-</div>
-
-<div class="bgimg-4">
-  <div class="caption">
-    <span class="border">test!</span>
-  </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-  </div>
-</div>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">COOL!</span>
-  </div>
 </div>
 
 

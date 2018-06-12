@@ -145,24 +145,6 @@ h3 {
   </div>
 </div>
 
-<div class="bgimg-4">
-  <div class="caption">
-    <span class="border">test!</span>
-  </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-  </div>
-</div>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">COOL!</span>
-  </div>
-</div>
-
 
     <!-- Scripts -->
       <script src="assets/js/jquery.min.js"></script>
