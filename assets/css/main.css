@@ -3449,6 +3449,7 @@ title {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		display: none;
 		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
 		background-position: center;
