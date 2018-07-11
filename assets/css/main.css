@@ -3445,10 +3445,11 @@ title {
 		-ms-align-items: center;
 		align-items: center;
 		background-image: url("../../images/banner.jpg");
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
+		#display: -moz-flex;
+		#display: -webkit-flex;
+		#display: -ms-flex;
+		#display: flex;
+		display: hidden;
 		padding: 6em 0 2em 0 ;
 		background-attachment: fixed;
 		background-position: center;
