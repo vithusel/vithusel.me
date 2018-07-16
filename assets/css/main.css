@@ -3499,6 +3499,7 @@ title {
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
+			display: hidden;
 		}
 
 			#banner > .inner .image {
@@ -3518,10 +3519,7 @@ title {
 					}
 
 			#banner > .inner .content {
-				display: -moz-flex;
-				display: -webkit-flex;
-				display: -ms-flex;
-				display: flex;
+				display: hidden; 
 				-moz-align-items: center;
 				-webkit-align-items: center;
 				-ms-align-items: center;
