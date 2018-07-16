@@ -18,8 +18,8 @@ include_once "everypage/header.php";
 
 				<!-- Banner -->
 					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
+						<div class="inner" style="display: hidden">
+							<header class="major" >
 								<h1>Hi, my name is Vit</h1>  
 								<span class="image">
 										<img src="images/pic12.jpg" alt="" />
